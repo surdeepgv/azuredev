@@ -130,7 +130,7 @@
 							]
 						},
 						{
-							"name": "Execute Pipeline1",
+							"name": "Execute_Update_Watermark_Stored_Procedure",
 							"type": "ExecutePipeline",
 							"dependsOn": [
 								{
