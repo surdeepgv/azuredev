@@ -56,7 +56,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"pipeline": {
-									"referenceName": "PL_Chile_Pipleine_Incremental",
+									"referenceName": "PL_Child_Pipeline_Incremental",
 									"type": "PipelineReference"
 								},
 								"waitOnCompletion": true,
