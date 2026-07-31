@@ -24,7 +24,8 @@
 					"dataset": {
 						"referenceName": "DS_SQLServer_Table_LookUp",
 						"type": "DatasetReference"
-					}
+					},
+					"firstRowOnly": false
 				}
 			}
 		],
