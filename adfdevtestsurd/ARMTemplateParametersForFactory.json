@@ -8,11 +8,26 @@
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
+		"LS_Parent_SQLServer_DW_password": {
+			"value": ""
+		},
 		"LS_SQL_Migration_password": {
+			"value": ""
+		},
+		"LS_ADLS_SQL_Parquet_accountKey": {
 			"value": ""
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://storageaccadlsdevtest.dfs.core.windows.net/"
+		},
+		"LS_Parent_SQLServer_DW_properties_typeProperties_server": {
+			"value": "SURDEEP\\SQLEXPRESS"
+		},
+		"LS_Parent_SQLServer_DW_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_Parent_SQLServer_DW_properties_typeProperties_userName": {
+			"value": "surdeepsql"
 		},
 		"LS_SQL_Migration_properties_typeProperties_server": {
 			"value": "SURDEEP\\SQLEXPRESS"
@@ -22,6 +37,9 @@
 		},
 		"LS_SQL_Migration_properties_typeProperties_userName": {
 			"value": "surdeepsql"
+		},
+		"LS_ADLS_SQL_Parquet_properties_typeProperties_url": {
+			"value": "https://storageaccadlsdevtest.dfs.core.windows.net/"
 		}
 	}
 }
