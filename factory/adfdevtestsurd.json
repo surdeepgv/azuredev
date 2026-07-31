@@ -1,0 +1,15 @@
+{
+	"name": "adfdevtestsurd",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9d8c2397-9f56-4d8b-b9a5-63709e4a7074",
+		"tenantId": "1f5cd253-2da8-4af0-a8af-9c977bc49471"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQL_Migration",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "SURDEEP\\SQLEXPRESS",
+			"database": "devmigration",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "surdeepsql",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjNmQ2Yzk5NC1mMmYxLTQwZTAtYTg4Mi1hZjY3ZjNmZDI4MWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "self-hosted-integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
